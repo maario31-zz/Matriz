@@ -13,7 +13,7 @@ for(i=0;i<4;i++){
         }
     }
 }
-printf("Valores maiores que 10: %d", maior);
+
 printf("posiçao do maior valor I:%d e J:%d", i1, j1);
 return 0;
 }
