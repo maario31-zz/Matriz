@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a[4][4],x,findi,findj,i,j;
+ for(i=0;i<4;i++){
+ 	for(j=0;j<4;j++){
+ 		printf("Matriz I:%d J:%d: \n ",i,j);
+ 		scanf("%d", &a[i][j]);
+	 }
+ }
+printf("Digite o seu valor X: ");
+scanf("%d", &x);
+
+for(i=0;i<4;i++){
+ 	for(j=0;j<4;j++){
+		if(a[i][j]==x){
+		
+		findi = i ;	
+		findj = j ;
+	}
+	else{
+		printf("Nao encontrado");
+	}
+	 }
+	 }
+	printf("Localização I:%d e J:%d", findi, findj);
+return 0;
+}
